@@ -1,0 +1,39 @@
+
+.search-box {
+  
+  transition: 0.5s;
+  border-radius: 50px;
+}
+
+.search-box input {
+  outline: none;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 12.5px;
+}
+
+.search-box span {
+  
+}
+
+.search-box input::placeholder {
+  font-size: 12px;
+}
+
+.cart_badge {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  left: 2;
+  background: #118F4B;
+  color: #fff;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  font-size: 0.4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

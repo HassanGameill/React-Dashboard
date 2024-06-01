@@ -1,0 +1,29 @@
+.scroll-picker {
+  height: 120px; /* Adjust height as needed */
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.scroll-picker ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.scroll-picker li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.scroll-picker li:hover {
+  background-color: #3b82f6;
+  color: #ffffff;
+}

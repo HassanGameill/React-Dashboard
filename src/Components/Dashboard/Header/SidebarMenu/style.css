@@ -1,0 +1,46 @@
+
+
+.image {
+  width: 250px;
+
+  
+}
+
+.image img {
+  background: white;
+}
+
+
+
+
+
+.cart_badge {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  left: 2;
+  background: #118F4B;
+  color: #fff;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  font-size: 0.4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.active {
+  color: #53ACFF;
+}
+
+
+.profile_img {
+  width: 30px;
+  height: 30px;
+  background: #53ACFF;
+  border-radius: 50%;
+}
